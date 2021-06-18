@@ -1,0 +1,8 @@
+create table tarefa(
+codigo int auto_increment primary key,
+dia_semana varchar(15),
+data varchar(15),
+horario varchar(15),
+descricao text,
+nome text
+);
